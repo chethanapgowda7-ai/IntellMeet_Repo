@@ -3,7 +3,7 @@ services:
     name: intellmeet-backend
     env: node
     plan: free
-    rootDir: server
+    rootDir: server/server
     buildCommand: npm install
     startCommand: node index.js
     envVars:
